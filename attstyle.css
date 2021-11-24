@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  margin: 175px 275px 0 275px;
+}
+
+.main-odd-attraction {
+  padding-bottom: 800px;
+}
+
+.main-odd-description {
+  width: 400px;
+  float: left;
+}
+
+.main-odd-pic {
+  width: 800px;
+  float: right;
+}
+
+.main-odd-pic img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.main-even-attraction {
+  padding-bottom: 800px;
+}
+
+.main-even-description {
+  width: 400px;
+  float: right;
+}
+
+.main-even-pic {
+  width: 800px;
+  float: left;
+}
+
+.main-even-pic img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+#main-last {
+  padding-bottom: 600px;
+}
