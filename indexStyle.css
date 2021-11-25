@@ -149,52 +149,11 @@ header {
   color: #03a9f4;
 }
 
-/* @media (max-width: 991px) {
-  .showcase,
-  .showcase header {
-    padding: 40px;
-  }
-  .text h2 {
-    font-size: 3em;
-  }
-  .text h3 {
-    font-size: 2em;
-  }
-}
-.navbar {
-  height: 12%;
-  display: flex;
-  align-items: center;
-} */
-
-/* nav {
-  flex: 1;
-  text-align: right;
-}
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 15px;
-}
-nav ul li a {
-  display: inline-block;
-  color: #fff;
-  text-decoration: none;
-  cursor: pointer;
-  transition: 0.5s;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-}
-nav ul li a:hover {
-  transform: scale(1.2) translateY(0px);
-} */
-
 nav {
   flex: 1;
   text-align: right;
-  padding-right: 27px;
-  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-bottom: 7px;
 }
 nav ul li {
   list-style: none;
