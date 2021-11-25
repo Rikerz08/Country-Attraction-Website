@@ -78,6 +78,7 @@ h3 {
 .text h2 {
   font-size: 3em;
 }
+
 .text h3 {
   font-size: 2em;
 }
@@ -87,6 +88,7 @@ h3 {
   display: flex;
   align-items: center;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -125,7 +127,7 @@ nav ul li a {
 nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
 }
-.toggle {
+/* .toggle {
   position: relative;
   width: 60px;
   height: 60px;
@@ -142,4 +144,4 @@ nav ul li a:hover {
   background-size: 25px;
   background-position: center;
   cursor: pointer;
-}
+} */
