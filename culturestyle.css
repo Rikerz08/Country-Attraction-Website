@@ -208,22 +208,28 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
+<<<<<<< HEAD
 .logo {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 25px;
 }
+=======
+
+>>>>>>> d2345f1e9e45e7682004e2f41abbd44255d9032d
 nav {
   flex: 1;
   text-align: right;
   display: block;
   padding-right: 50px;
 }
+
 nav ul li {
   list-style: none;
   display: inline-block;
   margin-left: 15px;
 }
+
 nav ul li a {
   display: inline-block;
   color: rgb(0, 0, 0);
@@ -234,6 +240,7 @@ nav ul li a {
   font-size: 18px;
   font-weight: 500;
 }
+
 nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
 }
