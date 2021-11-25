@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -12,9 +12,24 @@ h3 {
   text-decoration: underline;
 }
 
+.culture-banner {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/practice.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -1000px;
+  background-size: cover;
+}
+
 .culture-banner h2 {
+  position: relative;
+  padding-top: 150px;
+  line-height: 100px;
   text-align: center;
-  padding: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: orange;
 }
 
 .hiero-pics ul {
@@ -61,18 +76,6 @@ h3 {
   list-style: none;
 }
 
-@media (max-width: 991px) {
-  .showcase,
-  .showcase header {
-    padding: 40px;
-  }
-  .text h2 {
-    font-size: 3em;
-  }
-  .text h3 {
-    font-size: 2em;
-  }
-}
 .navbar {
   height: 12%;
   display: flex;
@@ -90,15 +93,17 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
-header .lp {
+/* header .lp {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
-}
+} */
 
 nav {
   flex: 1;
   text-align: right;
+  display: block;
+  padding-right: 50px;
 }
 nav ul li {
   list-style: none;
@@ -114,22 +119,4 @@ nav ul li a {
 }
 nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
-}
-.toggle {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  background: url(https://i.ibb.co/HrfVRcx/menu.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center;
-  cursor: pointer;
-  margin-left: 13px;
-}
-.toggle.active {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: center;
-  cursor: pointer;
 }
