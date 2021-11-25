@@ -127,7 +127,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* ****************************************************************************/
+
+/* ********************************************************************************* */
+
+* {
+  font-family: "Poppins", sans-serif;
+}
 
 header {
   position: fixed;
@@ -180,25 +185,23 @@ body {
   background-size: cover;
 }
 
-main {
-  margin: 100px 275px 0 275px;
+main h2 {
+  padding: 200px 0 0 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
 }
 
-h1 {
-  margin-top: 150px;
+main p {
+  padding: 120px 200px;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 70px;
-}
-p {
-  margin-top: 150px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
   font-size: 20px;
-  /* text-shadow: 1px 1px white; */
+  font-weight: 500;
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 90px;
   background: #fcae1e;
