@@ -75,9 +75,6 @@ h3 {
   list-style: none;
 }
 
-header {
-  padding: 40px;
-}
 .text h2 {
   font-size: 3em;
 }
@@ -102,11 +99,12 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
-header .lp {
+
+/* header .lp {
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
-}
+} */
 
 nav {
   flex: 1;
