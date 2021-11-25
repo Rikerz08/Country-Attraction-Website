@@ -9,16 +9,21 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  height: 97px;
+  padding: 20px 20px;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .logo {
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   cursor: pointer;
+  padding-bottom: 5px;
 }
 .showcase {
   position: absolute;
@@ -26,7 +31,6 @@ header .logo {
   width: 100%;
   min-height: 100vh;
   padding: 100px;
-  /* padding-top: 130px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,7 +167,7 @@ header .logo {
   align-items: center;
 } */
 
-nav {
+/* nav {
   flex: 1;
   text-align: right;
 }
@@ -175,6 +179,31 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  transform: scale(1.2) translateY(0px);
+} */
+
+nav {
+  flex: 1;
+  text-align: right;
+  padding-right: 27px;
+  padding-bottom: 5px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: white;
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s;
