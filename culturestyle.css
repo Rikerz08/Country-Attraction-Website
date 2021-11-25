@@ -208,15 +208,11 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
-<<<<<<< HEAD
 .logo {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 25px;
 }
-=======
-
->>>>>>> d2345f1e9e45e7682004e2f41abbd44255d9032d
 nav {
   flex: 1;
   text-align: right;
