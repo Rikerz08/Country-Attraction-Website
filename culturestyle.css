@@ -133,20 +133,27 @@ table {
 * {
   font-family: "Poppins", sans-serif;
 }
-.culture-overview h2 {
-  text-align: center;
-  padding-bottom: 30px;
-  font-weight: bold;
-  font-size: 35px;
-  letter-spacing: 4px;
-}
 
 .culture-overview {
   padding-top: 30px;
   padding-bottom: 100px;
   text-align: justify;
   text-justify: inter-word;
+
   /* font-size: 3px; */
+}
+.culture-overview h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 35px;
+}
+.culture-overview p {
+  text-align: justify;
+  padding-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-justify: inter-word;
 }
 
 .culture-family {
@@ -157,10 +164,15 @@ table {
 
 .culture-family h2 {
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   font-weight: bold;
   font-size: 35px;
-  letter-spacing: 4px;
+}
+.culture-family p {
+  text-align: left;
+  padding-bottom: 30px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .culture-hiero {
@@ -171,14 +183,17 @@ table {
 
 .culture-hiero h2 {
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   font-weight: bold;
   font-size: 35px;
-  letter-spacing: 4px;
 }
 
 .culture-hiero p {
-  padding-top: 40px;
+  text-align: justify;
+  font-size: 20px;
+
+  padding-top: 100px;
+  text-justify: inter-word;
 }
 
 .culture-fashion {
@@ -189,10 +204,16 @@ table {
 
 .culture-fashion h2 {
   text-align: left;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   font-weight: bold;
   font-size: 35px;
-  letter-spacing: 4px;
+}
+.culture-fashion p {
+  text-align: justify;
+  font-size: 20px;
+
+  text-justify: inter-word;
+  padding-bottom: 100;
 }
 
 header {
@@ -253,9 +274,9 @@ h3 {
   width: 100%;
   height: 400px;
   margin-top: 90px;
-  background-image: url("images/practice.jpg");
+  background-image: url("images/pharoah.jpg");
   background-repeat: no-repeat;
-  background-position: 0px -1000px;
+  background-position: 0px -500px;
   background-size: cover;
 }
 
@@ -304,18 +325,28 @@ h3 {
 
 .fashion-text {
   padding-top: 20px;
-  width: 229px;
+  width: 345px;
+  padding-bottom: 230px;
+}
+
+.fashion-text p {
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 2px;
+  /* text-justify: inter-word; */
 }
 
 .fashion-types ul li img {
-  width: 279px;
-  height: 400px;
+  width: 345px;
+  height: 500px;
 }
 
 .fashion-types h3 {
-  font-size: 15px;
+  text-decoration: none;
+  font-size: 20px;
   font-weight: 700;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
+  padding-top: 30px;
 }
 
 .religions ul li {
@@ -347,7 +378,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgb(255, 174, 98);
+  background: #fcae1e;
+  border-bottom: 7px solid black;
 }
 nav {
   flex: 1;
@@ -363,7 +395,6 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   color: rgb(0, 0, 0);
-
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s;
@@ -373,6 +404,40 @@ nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
 }
 
-.culture-religions {
-  margin-top: 300px;
+.culture-religion {
+  padding-top: 500px;
+  padding-bottom: 100px;
+}
+
+.culture-religion h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+
+.culture-religion h3 {
+  text-decoration: none;
+  text-align: left;
+  padding-bottom: 30px;
+  padding-top: 75px;
+  font-weight: bold;
+  font-size: 60px;
+  letter-spacing: 4px;
+}
+.culture-religion p {
+  text-decoration: none;
+  text-align: justify;
+  padding-bottom: 30px;
+  padding-top: 5px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-justify: inter-word;
+}
+
+body {
+  background-image: url(images/papyrus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
