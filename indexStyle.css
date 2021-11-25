@@ -21,7 +21,7 @@ header .logo {
   text-transform: uppercase;
   cursor: pointer;
 }
-.toggle {
+/* .toggle {
   position: relative;
   width: 60px;
   height: 60px;
@@ -38,7 +38,7 @@ header .logo {
   background-size: 25px;
   background-position: center;
   cursor: pointer;
-}
+} */
 .showcase {
   position: absolute;
   right: 0;
