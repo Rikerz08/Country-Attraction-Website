@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,700;1,100;1,400;1,500&family=Outfit:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Tourism</title>
   </head>
   <body>
@@ -41,8 +42,8 @@
       <main>
         <section class="main-odd-attraction">
           <div class="main-odd-description">
-            <h2>Great Pyramid of Giza</h2>
-            <p>
+            <h2 data-aos="fade-right">Great Pyramid of Giza</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               necessitatibus est deserunt, molestiae veniam dignissimos a odit
               id? Debitis fugit provident, cupiditate, dolor reiciendis hic odit
@@ -51,18 +52,18 @@
               voluptates, velit repellendus facere eius explicabo.
             </p>
           </div>
-          <div class="main-odd-pic">
+          <div class="main-odd-pic" data-aos="fade-left">
             <img src="images/giza.jpg" alt="Great Pyramid of Giza" />
           </div>
         </section>
 
         <section class="main-even-attraction">
-          <div class="main-even-pic">
+          <div class="main-even-pic" data-aos="fade-right">
             <img src="images/abu simbel.jpg" alt="Abu Simbel Temples" />
           </div>
           <div class="main-even-description">
-            <h2>Abu Simbel Temples</h2>
-            <p>
+            <h2 data-aos="fade-left">Abu Simbel Temples</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
               tempora ad iusto quibusdam assumenda placeat omnis dolore vero
               error vel, officia a facere animi enim aspernatur non iure!
@@ -75,8 +76,8 @@
 
         <section class="main-odd-attraction">
           <div class="main-odd-description">
-            <h2>Nile River</h2>
-            <p>
+            <h2 data-aos="fade-right">Nile River</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               necessitatibus est deserunt, molestiae veniam dignissimos a odit
               id? Debitis fugit provident, cupiditate, dolor reiciendis hic odit
@@ -85,18 +86,18 @@
               voluptates, velit repellendus facere eius explicabo.
             </p>
           </div>
-          <div class="main-odd-pic">
+          <div class="main-odd-pic" data-aos="fade-left">
             <img src="images/nile.jpg" alt="Nile River" />
           </div>
         </section>
 
         <section class="main-even-attraction">
-          <div class="main-even-pic">
+          <div class="main-even-pic" data-aos="fade-right">
             <img src="images/saqqara.jpg" alt="Saqqara" />
           </div>
           <div class="main-even-description">
-            <h2>Saqqara</h2>
-            <p>
+            <h2 data-aos="fade-left">Saqqara</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam
               tempora ad iusto quibusdam assumenda placeat omnis dolore vero
               error vel, officia a facere animi enim aspernatur non iure!
@@ -109,8 +110,8 @@
 
         <section class="main-odd-attraction" id="main-last">
           <div class="main-odd-description">
-            <h2>Siwa Oasis</h2>
-            <p>
+            <h2 data-aos="fade-right">Siwa Oasis</h2>
+            <p data-aos="fade-up">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
               necessitatibus est deserunt, molestiae veniam dignissimos a odit
               id? Debitis fugit provident, cupiditate, dolor reiciendis hic odit
@@ -119,7 +120,11 @@
               voluptates, velit repellendus facere eius explicabo.
             </p>
           </div>
-          <div class="main-odd-pic">
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+          <div class="main-odd-pic" data-aos="fade-left">
             <img src="images/siwa oasis.jpg" alt="Siwa Oasis" />
           </div>
         </section>
@@ -127,7 +132,7 @@
 
       <footer>
         <div class="footer-trademark">
-          <h3>Explore, Elevate, Enjoy.</h3>
+          <h3>EXPLORE, ELEVATE, ENJOY</h3>
           <p>RNG Company</p>
         </div>
         <div class="footer-contact">
