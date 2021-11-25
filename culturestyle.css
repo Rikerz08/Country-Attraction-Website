@@ -250,3 +250,38 @@ h3 {
   display: flex;
   align-items: center;
 }
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 174, 98);
+}
+nav {
+  flex: 1;
+  text-align: right;
+  display: block;
+  padding-right: 50px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+}
+nav ul li a:hover {
+  transform: scale(1.2) translateY(0px);
+}
