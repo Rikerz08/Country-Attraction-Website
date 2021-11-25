@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 main {
@@ -75,14 +76,6 @@ h3 {
   list-style: none;
 }
 
-.text h2 {
-  font-size: 3em;
-}
-
-.text h3 {
-  font-size: 2em;
-}
-
 .navbar {
   height: 12%;
   display: flex;
@@ -101,16 +94,11 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
-
-/* header .lp {
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
-} */
-
 nav {
   flex: 1;
   text-align: right;
+  display: block;
+  padding-right: 50px;
 }
 nav ul li {
   list-style: none;
@@ -128,21 +116,3 @@ nav ul li a {
 nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
 }
-/* .toggle {
-  position: relative;
-  width: 60px;
-  height: 60px;
-  background: url(https://i.ibb.co/HrfVRcx/menu.png);
-  background-repeat: no-repeat;
-  background-size: 30px;
-  background-position: center;
-  cursor: pointer;
-  margin-left: 13px;
-}
-.toggle.active {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
-  background-position: center;
-  cursor: pointer;
-} */
