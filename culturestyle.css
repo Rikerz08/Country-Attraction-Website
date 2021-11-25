@@ -81,6 +81,7 @@ h3 {
   display: flex;
   align-items: center;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -93,12 +94,6 @@ header {
   align-items: center;
   background: rgb(255, 174, 98);
 }
-/* header .lp {
-  color: #fff;
-  text-transform: uppercase;
-  cursor: pointer;
-} */
-
 nav {
   flex: 1;
   text-align: right;
