@@ -111,6 +111,7 @@ nav ul li a {
   text-decoration: none;
   cursor: pointer;
   transition: 0.5s;
+  font-family: "Poppins", sans-serif;
 }
 nav ul li a:hover {
   transform: scale(1.2) translateY(0px);
