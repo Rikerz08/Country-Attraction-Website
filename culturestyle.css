@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 html {
   margin: 0;
   padding: 0;
@@ -13,6 +14,7 @@ h3 {
 
 .culture-banner h2 {
   text-align: center;
+  padding: 100px;
 }
 
 .hiero-pics ul {
@@ -57,4 +59,77 @@ h3 {
 
 .religions ul li {
   list-style: none;
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+  .text h2 {
+    font-size: 3em;
+  }
+  .text h3 {
+    font-size: 2em;
+  }
+}
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(255, 174, 98);
+}
+header .lp {
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+nav ul li a {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  transform: scale(1.2) translateY(0px);
+}
+.toggle {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+  margin-left: 13px;
+}
+.toggle.active {
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
 }
