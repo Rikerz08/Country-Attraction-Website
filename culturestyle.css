@@ -75,18 +75,16 @@ h3 {
   list-style: none;
 }
 
-@media (max-width: 991px) {
-  .showcase,
-  .showcase header {
-    padding: 40px;
-  }
-  .text h2 {
-    font-size: 3em;
-  }
-  .text h3 {
-    font-size: 2em;
-  }
+header {
+  padding: 40px;
 }
+.text h2 {
+  font-size: 3em;
+}
+.text h3 {
+  font-size: 2em;
+}
+
 .navbar {
   height: 12%;
   display: flex;
